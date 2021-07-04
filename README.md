@@ -141,6 +141,10 @@
     ```shell
     python setup.py develop
     ```
+
+5. 将较大的权重文件dict文件进行下载并且移动到mmdetection/work_dirs/mask_rcnn_r50_caffe_fpn_mstrain-poly_1xSF下
+    >链接：https://pan.baidu.com/s/18dWehstHxixFbIP93sNesg 提取码：bb6r 
+
 # Project Directory Structure & Introduction
 
 - **first_datset：训练集（包括图片和标注文件）**
