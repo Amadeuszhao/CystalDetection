@@ -159,6 +159,8 @@
 
 - **auto_annotation.py：渐进式标注**
 
+- **count.py：类别计数**
+
 - **generate_json.py：训练配置文件**
 
 ## **Train**
@@ -345,22 +347,25 @@
         </div>
 
 
+## **Count**
+
+> **类别计数**
+
+- **参数介绍：**
+
+    + **--dir_path：待标注图片文件夹路径**
+
+        + **需要手动指定**
 
 
+- **示例：**
 
-算直径等参数写
-单张图片检测封装
-视频流检测封装
-考虑加head（大概率没必要加）√
-后处理改进，减少iou大的框 √
-seg评价指标算
+    + **类别计数：**
 
-**看懂result输出的结果**并只可视化segmentation √
-md写如何进行调参优化等手段，结合mmdetection官方文档教程等
-改loss，优化器等试试 √
+        ```shell
+        python count.py --dir_path ./first_datset
+        ```
 
-效果图 确认需求
-
-
-
-
+        <div align="center">
+            <img src="./image/count.png"/>
+        </div>
